@@ -2,9 +2,7 @@
 /**
 *main - Entry point of program
 *
-*_putchar: To write char
-*
-*return:  Always return 0 (Success)
+*Return:  Always return 0 (Success)
 */
 int main(void)
 {
