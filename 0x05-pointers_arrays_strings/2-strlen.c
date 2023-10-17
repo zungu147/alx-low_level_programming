@@ -1,17 +1,20 @@
 #include "main.h"
 /**
 *_strlen - count length of string
-*@s - pointer pointing to char
+*
+*@s: pointer pointing to char
+*
 *Return: int len
 */
 int _strlen(char *s);
 {
 	int len = 0;
+	int count = 0;
 
-	while (*s != '\0')
+	while (s[count] != '\0')
 	{
-		*s++;
-		*len++;
+		count++;
+		len++;
 	}
 	return (len);
 }
