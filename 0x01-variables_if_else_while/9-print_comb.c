@@ -2,17 +2,21 @@
 /**
 *main - Entry point of program
 *
-*return: Always 0 (Success)
+*Return: Always 0 (Success)
 */
 int main(void)
 {
-	int i;
+	int i = 48;
 
-	for (i = 48; i <= 57; i++)
+	for (i = 48; i <= 57;)
 	{
 		putchar(i);
-		putchar(',');
-		putchar(' ');
+		if (i < 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
