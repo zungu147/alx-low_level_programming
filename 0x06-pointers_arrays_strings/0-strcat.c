@@ -3,8 +3,9 @@ include "main.h"
 *_strcat - concatenate two string
 *
 *@dest: str 1
-*
 *@src: str 2
+*
+*Return: dest
 */
 char *_strcat(char *dest, char *src)
 {
