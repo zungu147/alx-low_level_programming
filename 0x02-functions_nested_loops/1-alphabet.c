@@ -10,9 +10,11 @@ void print_alphabet(void)
 {
 	int j;
 
-	for (j = 0; j <= 123; j++)
+	j = 0;
+	while (j <= 122)
 	{
 		_putchar(j);
+		j++
 	}
 	_putchar('\n');
 	return (0);
