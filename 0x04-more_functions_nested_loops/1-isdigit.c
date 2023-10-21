@@ -8,12 +8,12 @@
 */
 int _isdigit(int c)
 {
-	i = 48;
-	if (i < 48)
+	c = 48;
+	if (c < 48)
 	{
 		return (0);
 	}
-	else if (i < 58)
+	else if (c < 58)
 	{
 		return (1);
 	}
