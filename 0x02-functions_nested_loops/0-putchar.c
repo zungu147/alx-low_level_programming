@@ -1,9 +1,10 @@
 #include "main.h"
-/*
- *main - entry point
- *
- *Return: Always 0
- */
+#include <stdio.h>
+/**
+*main - entry point
+*
+*Return: Always 0
+*/
 int main(void)
 {
 	char n;
@@ -17,6 +18,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('n');
+	_putchar(n);
 	return (0);
 }
