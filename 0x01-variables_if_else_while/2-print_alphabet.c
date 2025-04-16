@@ -12,8 +12,8 @@ int main(void)
 	while (a >= 97 && a <= 122)
 	{
 		putchar(a);
-		putchar(10);
 		a++;
 	}
+	putchar(10);	
 	return (0);
 }
